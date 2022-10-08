@@ -4,42 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <header>
-      <a href="#"><span>Web</span>Studio</a>
+      <a class="logo" href="#"><span class="blue">Web</span>Studio</a>
       <nav>
         <ul>
-          <li><a href="">Agencja</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Kontakt</a></li>
+          <li><a class="navi" href="">Agencja</a></li>
+          <li><a class="navi, blue" href="">Portfolio</a></li>
+          <li><a class="navi" href="">Kontakt</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48-111-111-111">+48 111 111 111</a></li>
+        <li>
+          <a class="contacts" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+        </li>
+        <li>
+          <a class="contacts" href="tel:+48-111-111-111">+48 111 111 111</a>
+        </li>
       </ul>
     </header>
     <main>
       <section>
         <ul>
-          <li><input type="button" value="Wszystkie" /></li>
-          <li><input type="button" value="Strony" /></li>
-          <li><input type="button" value="Aplikacje" /></li>
-          <li><input type="button" value="Dizajn" /></li>
-          <li><input type="button" value="Marketing" /></li>
+          <li><input class="buttons" type="button" value="Wszystkie" /></li>
+          <li><input class="buttons" type="button" value="Strony" /></li>
+          <li><input class="buttons" type="button" value="Aplikacje" /></li>
+          <li><input class="buttons" type="button" value="Dizajn" /></li>
+          <li><input class="buttons" type="button" value="Marketing" /></li>
         </ul>
       </section>
       <section>
         <ul>
           <li>
             <figure>
-              <img src="./images/project1.jpg" alt="Otwarty Laptop" />
+              <img
+                src="./images/project1.jpg"
+                alt="Otwarty Laptop"
+                width="370"
+                height="294"
+              />
               <figcaption>
-                <h4>Technocrack</h4>
-                <span>Strona internetowa</span>
+                <h4 class="main-description">Technocrack</h4>
+                <span class="side-description">Strona internetowa</span>
               </figcaption>
             </figure>
           </li>
@@ -48,10 +65,14 @@
               <img
                 src="./images/project2.jpg"
                 alt="Dwuch koszykarzy walczy o piłke"
+                width="370"
+                height="294"
               />
               <figcaption>
-                <h4>Grafika New Orlean vs Golden Star</h4>
-                <span>Dizajn</span>
+                <h4 class="main-description">
+                  Grafika New Orlean vs Golden Star
+                </h4>
+                <span class="side-description">Dizajn</span>
               </figcaption>
             </figure>
           </li>
@@ -60,46 +81,68 @@
               <img
                 src="./images/project3.jpg"
                 alt="Logo Restauracji z rybą w tle"
+                width="370"
+                height="294"
               />
               <figcaption>
-                <h4>Restauracja Seafood</h4>
-                <span>Aplikacja</span>
+                <h4 class="main-description">Restauracja Seafood</h4>
+                <span class="side-description">Aplikacja</span>
               </figcaption>
             </figure>
           </li>
           <li>
             <figure>
-              <img src="./images/project4.jpg" alt="słuchawki nauszne" />
+              <img
+                src="./images/project4.jpg"
+                alt="słuchawki nauszne"
+                width="370"
+                height="294"
+              />
               <figcaption>
-                <h4>Projekt Prime</h4>
-                <span>Marketing</span>
+                <h4 class="main-description">Projekt Prime</h4>
+                <span class="side-description">Marketing</span>
               </figcaption>
             </figure>
           </li>
           <li>
             <figure>
-              <img src="./images/project5.jpg" alt="dwa pudełka" />
+              <img
+                src="./images/project5.jpg"
+                alt="dwa pudełka"
+                width="370"
+                height="294"
+              />
               <figcaption>
-                <h4>Projekt Boxes</h4>
-                <span>Aplikacja</span>
+                <h4 class="main-description">Projekt Boxes</h4>
+                <span class="side-description">Aplikacja</span>
               </figcaption>
             </figure>
           </li>
           <li>
             <figure>
-              <img src="./images/project6.jpg" alt="monitor" />
+              <img
+                src="./images/project6.jpg"
+                alt="monitor"
+                width="370"
+                height="294"
+              />
               <figcaption>
-                <h4>Inspiration has no Borders</h4>
-                <span>Strona internetowa</span>
+                <h4 class="main-description">Inspiration has no Borders</h4>
+                <span class="side-description">Strona internetowa</span>
               </figcaption>
             </figure>
           </li>
           <li>
             <figure>
-              <img src="./images/project7.jpg" alt="otwarta książka" />
+              <img
+                src="./images/project7.jpg"
+                alt="otwarta książka"
+                width="370"
+                height="294"
+              />
               <figcaption>
-                <h4>Magazyn Limited Edition</h4>
-                <span>Dizajn</span>
+                <h4 class="main-descripton">Magazyn Limited Edition</h4>
+                <span class="side-description">Dizajn</span>
               </figcaption>
             </figure>
           </li>
@@ -108,10 +151,12 @@
               <img
                 src="./images/project8.jpg"
                 alt="metka z napisem Lab El Tag"
+                width="370"
+                height="294"
               />
               <figcaption>
-                <h4>Projekt LAB</h4>
-                <span>Marketing</span>
+                <h4 class="main-descripton">Projekt LAB</h4>
+                <span class="side-description">Marketing</span>
               </figcaption>
             </figure>
           </li>
@@ -120,10 +165,12 @@
               <img
                 src="./images/project9.jpg"
                 alt="człowiek pracuje na laptopie"
+                width="370"
+                height="294"
               />
               <figcaption>
-                <h4>Growing Business</h4>
-                <span>Aplikacja</span>
+                <h4 class="main-descripton">Growing Business</h4>
+                <span class="side-description">Aplikacja</span>
               </figcaption>
             </figure>
           </li>
@@ -131,11 +178,21 @@
       </section>
     </main>
     <footer>
-      <a href="#"><span>Web</span>Studio</a>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+      <a class="footer-logo" href="#"><span class="blue">Web</span>Studio</a>
+      <address class="footer-contacts">
+        m. Warszawa, Aleje Jerozolimskie 21
+      </address>
       <ul>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48-111-111-111">+48 111 111 111</a></li>
+        <li>
+          <a class="footer-contacts" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+        </li>
+        <li>
+          <a class="footer-contacts" href="tel:+48-111-111-111"
+            >+48 111 111 111</a
+          >
+        </li>
       </ul>
     </footer>
   </body>
